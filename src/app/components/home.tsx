@@ -9,7 +9,7 @@ import Footer from "./footer";
 import { FaRegClock, FaRegUser } from "react-icons/fa6";
 import { FaRegCalendar } from "react-icons/fa6";
 import Link from "next/link";
-import Contact from "../../../Conatct/contact";
+
 
 
 const popins = Poppins({
@@ -22,12 +22,12 @@ const Home = () => {
     <div className="h-screen">
       <div className="bg-myOrange">
         <nav className="hidden md:flex space-x-16 items-center justify-center py-8">
-          <Link href="/home" className={`${popins.className} text-[16px] leading-[24px]`}>
+          <Link href="/" className={`${popins.className} text-[16px] leading-[24px]`}>
             Home
           </Link>
   
           
-          <Link href="/shop"
+          <Link href="/"
    className={`${popins.className} text-[16px] leading-[24px]`}>Shop
 </Link>
 
@@ -41,7 +41,7 @@ const Home = () => {
          </Link>
           
 
-  <Link href="/contact"   className={`${popins.className} text-[16px] leading-[24px]`}  >
+  <Link href="/"   className={`${popins.className} text-[16px] leading-[24px]`}  >
   Contact
   </Link>
 
