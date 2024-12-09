@@ -2,7 +2,6 @@ import React from "react";
 import { CiHeart } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import { RiContactsLine } from "react-icons/ri";
 import Image from "next/image";
 import { Poppins } from "next/font/google";
 import Footer from "./footer";

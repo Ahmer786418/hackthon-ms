@@ -1,6 +1,6 @@
 
-import Home from "./components/home";
-// import Footer from "./components/footer";
+import Home from "./components/home";;
+
 
 
 
