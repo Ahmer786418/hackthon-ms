@@ -61,13 +61,13 @@ const Home = () => {
           </p>
           <div className={`${popins.className} text-[24px]`}>
             <span className="font-bold underline cursor-pointer">Shop Now</span>
-            <div className="flex">
-              <div>
+            <div className="flex items-center justify-center">
+              <div className=" w-[100%] pb-6  mb-8 flex justify-center items-center">
                 <Image
                   src={"/assest/Rocket single seater 1.png"}
                   alt={"logo"}
-                  width={500}
-                  height={300}
+                  width={440}
+                  height={200}
                   className="flex items-center justify-between"
                 />
               </div>
@@ -77,7 +77,8 @@ const Home = () => {
 
         <div className="bg-myhashtag">
           <div className="flex">
-            <div>
+         
+            <div >
               <Image
                 src={"/assest/Sidetable.png"}
                 alt={"logo2"}
